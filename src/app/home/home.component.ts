@@ -33,7 +33,7 @@ export class HomeComponent implements OnInit, OnDestroy {
   }
 
   ngOnDestroy() {
-    // 다른 페이지로 이동하면 컴포넌트는 소멸된다. 이때 라우팅 간에 preloader를 표시한다.
+    // 다른 페이지로 이동하면 컴포넌트는 소멸된다. 이때 라우팅 간에 표시할 preloader를 활성화한다.
     this.preloader.show();
   }
 }

@@ -6,11 +6,9 @@ import { AppRoutingModule } from './app-routing.module';
 
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
-import { PreloaderComponent } from './preloader/preloader.component';
-
-import { PreloaderService } from './preloader';
-import { DataService } from './data.service';
+import { PreloaderComponent, PreloaderService } from './preloader';
 import { AboutComponent } from './about/about.component';
+import { DataService } from './data.service';
 
 @NgModule({
   declarations: [
